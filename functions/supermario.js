@@ -1,4 +1,4 @@
-exports.handlers = async () => {
+export async function handler() {
   console.log('func run');
 
   const data = {
@@ -10,4 +10,4 @@ exports.handlers = async () => {
     statusCode: 200,
     body: JSON.stringify(data),
   };
-};
+}
